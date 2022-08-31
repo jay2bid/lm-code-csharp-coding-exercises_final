@@ -8,9 +8,6 @@ namespace Exercises
 
         public bool IsFromManchester(Person personId)
         {
-            if (personId == null)
-                return false;
-            else
                 return personId.city == "Manchester";
         }
 

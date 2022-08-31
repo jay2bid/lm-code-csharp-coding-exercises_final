@@ -75,10 +75,7 @@ namespace Exercises
         public int CountLinuxUsers(List<User> users)
         {
             int count = 0;
-            if (users == null)
-            { count = 0; }
-
-            else if (users != null)
+            if (users != null)
             {
 
                 foreach (User user in users)
